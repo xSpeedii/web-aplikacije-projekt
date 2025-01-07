@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kontaktirajte nas za više informacija o Audi vozilima, uslugama i promocijama. Naša ekipa je tu da vam pomogne!">
+    <meta name="keywords" content="kontakt, Audi, kontaktni podaci, upiti, usluge, Audi dealer">    
+    <meta name="author" content="Marko Delač">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Audi Dealer - Luksuz i Performanse</title>
+</head>
+<body>
+    <header>
+        <div class="banner">
+            <h1>Dobrodošli u svijet Audija</h1>
+            <p>Pronađite idealan Audi za sebe i uživajte u luksuzu na svakom kilometru.</p>
+            <a href="novosti.html" class="button">Pogledaj ponudu</a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="novosti.html">Novosti</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+                <li><a href="onama.html">O nama</a></li>
+                <li><a href="galerija.html">Galerija</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+            <div class="working-hours">
+                <p>Ispunite kontakt obrazac u nastavku i naš tim će vam se javiti u najkraćem mogućem roku.</p>
+                <p><strong>Radno vrijeme:</strong></p>
+                <ul>
+                    <li><i class="fas fa-calendar-day"></i> <strong>Ponedjeljak - Petak:</strong> 8:00 - 17:00</li>
+                    <li><i class="fas fa-calendar-day"></i> <strong>Subota:</strong> 08:00 - 16:00</li>
+                    <li><i class="fas fa-times-circle"></i> <strong>Nedjelja:</strong> Zatvoreno</li>
+                </ul>
+                
+            </div>
+        </div>
+        <section class="contact-form">
+            <h2>Kontaktirajte nas</h2>
+            <form action="index.html" method="post">
+                <label for="first-name">Ime:</label>
+                <input type="text" id="first-name" name="first-name" required placeholder="Unesite vaše ime">
+        
+                <label for="last-name">Prezime:</label>
+                <input type="text" id="last-name" name="last-name" required placeholder="Unesite vaše prezime">
+        
+                <label for="email">E-mail adresa:</label>
+                <input type="email" id="email" name="email" required placeholder="Unesite vašu e-mail adresu" 
+                       pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}" title="Unesite ispravnu e-mail adresu">
+        
+                <label for="country">Država:</label>
+                <select id="country" name="country" required>
+                    <option value="">Izaberite državu</option>
+                    <option value="hr">Hrvatska</option>
+                    <option value="ba">Bosna i Hercegovina</option>
+                    <option value="rs">Srbija</option>
+                    <option value="me">Crna Gora</option>
+                </select>
+        
+                <label for="description">Opis:</label>
+                <textarea id="description" name="description" rows="4" required placeholder="Opišite vaš upit"></textarea>
+        
+                <button type="submit">Pošaljite</button>
+            </form>
+        </section>
+        
+
+        <div class="text2">
+            <h2>Pronađite nas na Google kartama</h2>
+        </div>
+        <section class="google-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d300.4213364055546!2d15.85876066475082!3d45.79695636540973!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4765d167e5ee63e7%3A0x3d06fa6c7be17a1f!2sAUDI%20prodajni%20salon%20i%20servis!5e1!3m2!1shr!2shr!4v1736168337705!5m2!1shr!2shr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>Copyright © 2025 Audi Dealer, vl. Marko Delač</p>
+            <div class="social-icons">
+                <a href="https://facebook.com" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="https://instagram.com" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+				<a href="https://github.com/xSpeedii" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
